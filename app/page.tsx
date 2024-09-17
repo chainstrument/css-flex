@@ -1,13 +1,14 @@
 import Image from "next/image";
+import Button from "./components/Button";
 
 export default function Home() {
   return ( 
     <div className="p-8 ">
-        <button className="btn-primary bg-violet-200 p-5 rounded-xl">click me</button>
-        
+        <Button name="Hello" />
+        <section className="flex flex-col items-center justify-center">
+         <span className="text-lg font-medium">Bonjour</span>
+        </section>
 
-        <span className="text-lg font-medium">Bonjour</span>
-        
     </div>
   );
 }
