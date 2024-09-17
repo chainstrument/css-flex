@@ -12,13 +12,19 @@ export default function Home() {
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque tempore impedit est 
             id tenetur voluptatum a minima eos? Dolorum cupiditate, accusantium excepturi fuga expedita consequatur esse amet error ipsa delectus.
           </p>
-
+          <ul className="flex flex-col gap-2 p-4 ">
+            <li className="bg-zinc-200 px-4 py-2 rounded-md shadow">Salade</li>
+            <li className="bg-zinc-200 px-4 py-2 rounded-md shadow">Poulet</li>
+            <li className="bg-zinc-200 px-4 py-2 rounded-md shadow">Saucisse</li>
+            <li className="bg-zinc-200 px-4 py-2 rounded-md shadow">Fromage</li>
+            
+          </ul>
           <button className="rounded-md bg-purple-600/50 shadow-lg px-4 py-2 text-white hover:bg-purple-500">
           click me
         </button>
         </div>
         
-    
+
 
       </main>
     </div>
