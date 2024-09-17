@@ -13,7 +13,7 @@ export default function Home() {
             id tenetur voluptatum a minima eos? Dolorum cupiditate, accusantium excepturi fuga expedita consequatur esse amet error ipsa delectus.
           </p>
 
-          <button className="rounded-md bg-purple-600 shadow-lg px-4 py-2 text-white hover:bg-purple-500">
+          <button className="rounded-md bg-purple-600/50 shadow-lg px-4 py-2 text-white hover:bg-purple-500">
           click me
         </button>
         </div>
