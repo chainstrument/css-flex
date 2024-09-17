@@ -12,8 +12,13 @@ export default function Home() {
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque tempore impedit est 
             id tenetur voluptatum a minima eos? Dolorum cupiditate, accusantium excepturi fuga expedita consequatur esse amet error ipsa delectus.
           </p>
-        </div>
 
+          <button className="rounded-md bg-purple-400 px-4 py-2 text-white hover:bg-purple-500">
+          click me
+        </button>
+        </div>
+        
+    
 
       </main>
     </div>
