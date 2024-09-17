@@ -3,15 +3,20 @@ import Example from "./example1";
  
 export default function Home() {
   return ( 
-    <div className="p-8 ">
-      <main className="w-full h-screen flex justify-center items-center flex-col gap-4">
-        <div className="bg-blue-100 shadow-lg p-8 border border-blue-300 rounded-lg">
-            Hello
+    <div className="">
+      <main className="flex flex-col items-center justify-center">
+        <div className=" border w-full h-screen  bg-zinc-50 max-w-sm shadow-lg rounded-lg">
+          <h1 className="font-bold text-xs">Hello</h1>
+          <h1 className="font-bold text-sm">Hello</h1>
+          <h1 className="font-bold text-base">Hello</h1>
+          <h1 className="font-bold text-lg">Hello</h1>
+          <h1 className="font-bold text-xl">Hello</h1>
+          <h1 className="font-bold text-2xl">Hello</h1>
+          <h1 className="font-bold text-3xl">Hello</h1>
         </div>
-         
-        <Example />
+
+
       </main>
-      
     </div>
   );
 }
